@@ -147,7 +147,7 @@ const router = useRouter();
           variant="outlined"
           color="secondary"
           size="large"
-          onClick={() => handleRedirect('/sign-in')} // Redirect to sign-in page
+          onClick={() => handleRedirect('https://calendly.com/cybillnerd/let-s-start-your-project-together')} 
           sx={{  fontSize: '16px', marginRight: '22px' }}
         >
           Schedule a Demo
@@ -157,12 +157,11 @@ const router = useRouter();
           variant="outlined"
           color="secondary"
           size="large"
-          onClick={() => handleRedirect('/sign-up')} // Redirect to sign-up page
+          onClick={() => handleRedirect('https://calendly.com/cybillnerd/let-s-start-your-project-together')} 
           sx={{  fontSize: '16px' }}
         >
           Let’s Build the Future Together
-          {/* Lets collaborate */}
-        </Button>
+          </Button>
         
       </Container>
     </Box>
