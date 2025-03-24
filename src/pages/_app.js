@@ -28,16 +28,18 @@ export default function App({ Component, pageProps }) {
       <CustomTheme {...pageProps}>
         {/* Metadata in the <Head> component */}
         <Head>
-          <title>Lancer Planet</title>
-          <meta name="description" content="A Web3 Freelance Platform" />
-          <meta name="keywords" content="web3, freelance, web3 freelance, seo, blockchain, blockchain freelance platform" />
+          <title>Cybill Nerd | Innovative IT & Web3 Solutions</title>
+          <meta
+            name="description"
+            content="Cybill Nerd is a leading IT solutions provider specializing in Web3, blockchain, software development, SEO, and digital transformation."
+          />
+          <meta
+            name="keywords"
+            content="IT solutions, Web3 development, blockchain, freelance platform, software development, digital marketing, SEO, cybersecurity"
+          />
           <meta name="author" content="Cybill Nerd" />
-          
-          {/* Favicon */}
-          <link rel="icon" href="/favicon.ico" />
-          
-          {/* For Apple devices and iOS */}
-          <link rel="apple-touch-icon" href="/favicon.ico" />
+          <link rel="icon" href="/logo.svg" />
+          <link rel="apple-touch-icon" href="/logo.svg" />
         </Head>
 
         <CssBaseline enableColorScheme />

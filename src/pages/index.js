@@ -129,20 +129,19 @@ const router = useRouter();
         padding: 2,
       }}
     >
-      <Container maxWidth="sm">
+      <Container maxWidth="md">
       <LancerPlanetLogoSymbol width="20%" styles={{marginBottom: 4}}/>
-        <Typography variant="h2" component="h1" sx={{ fontWeight: 700, mb: 3 }}>
-          Welcome to Lancer
+        {/* <Typography variant="h2" component="h1" sx={{ fontWeight: 700, mb: 3 }}>
+          Welcome to Cybill Nerd 
+          </Typography>
+         */}
+          <Typography variant="h2" component="h1" sx={{ fontWeight: 700, mb: 3 }}>
+          Innovate. Collaborate. Succeed.
         </Typography>
-        
-        <Typography variant="h5" sx={{ mb: 4 }}>
-          Your all-in-one freelancing platform to connect with clients and get work done efficiently.
+          <Typography variant="h6" sx={{ mb: 4, fontWeight: 500 }}>
+          Join Cybill Nerd and revolutionize the future of Web3 & IT solutions.
         </Typography>
-        
-        <Typography variant="h6" sx={{ mb: 4, fontWeight: 500 }}>
-          It is the first Web3-based freelancing platform, powered by blockchain for secure payments and transparent transactions.
-        </Typography>
-        
+     
         
         <Button
           variant="outlined"
@@ -151,7 +150,7 @@ const router = useRouter();
           onClick={() => handleRedirect('/sign-in')} // Redirect to sign-in page
           sx={{  fontSize: '16px', marginRight: '22px' }}
         >
-          Sign In
+          Schedule a Demo
         </Button>
         
         <Button
@@ -161,7 +160,8 @@ const router = useRouter();
           onClick={() => handleRedirect('/sign-up')} // Redirect to sign-up page
           sx={{  fontSize: '16px' }}
         >
-          Sign Up
+          Let’s Build the Future Together
+          {/* Lets collaborate */}
         </Button>
         
       </Container>
